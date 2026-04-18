@@ -15,7 +15,7 @@ A Python CLI tool to loop a video N times with a **count overlay** (e.g. `1 / 22
 
 ### Example Output
 
-A 3-minute Sudarshana mantra video looped 22 times → `66-minute output.mp4` with `1 / 22 … 22 / 22` displayed in gold text.
+A 3-minute mantra video looped 22 times → `66-minute output.mp4` with `1 / 22 … 22 / 22` displayed in gold text.
 
 ---
 
