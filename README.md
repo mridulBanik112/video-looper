@@ -42,7 +42,7 @@ A 3-minute mantra video looped 22 times → `66-minute output.mp4` with `1 / 22 
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/mantra-video-creator.git
+git clone https://github.com/<your-username>/video-looper.git
 cd mantra-video-creator
 
 # 2. Install system dependency
