@@ -109,7 +109,7 @@ def create_looped_video(
         # Build filter string
         filters = [
             f"drawtext=text='{i} / {loops}':fontsize={font_size}:fontcolor={font_color}:"
-            f"borderw=3:bordercolor=black:x=(w-text_w)/2:y={y_position}"
+            f"borderw=3:bordercolor=black:x=(w-text_w)/2:y={y_position}:fontfile=/System/Library/Fonts/ArialHB.ttc"
         ]
         
         if show_timer:
@@ -118,7 +118,7 @@ def create_looped_video(
             filters.append(
                 f"drawtext=text='%{{pts\\:hms}}':fontsize=48:fontcolor=white:"
                 f"borderw=2:bordercolor=black:x=(w-text_w)/2:y={timer_y}:"
-                f"start_number={time_offset}"
+                f"start_number={time_offset}:fontfile=/System/Library/Fonts/ArialHB.ttc"
             )
         
         filter_str = ','.join(filters)
